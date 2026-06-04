@@ -1,0 +1,105 @@
+---
+layout: parse
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  <!-- Head -->
+  <head>
+  {%- if page.redirect -%}
+    <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
+  {%- endif -%}
+  {% include head.html %}
+  </head>
+
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Header -->
+    {%- include header.html %}
+
+    <style>
+      body, .headerr {
+        margin: 0;
+        padding: 0;
+      }
+
+      .headerr {
+        background-image:
+          linear-gradient(90deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.92)),
+          url('{{ "/assets/img/header-decoupled-intelligence.png" | relative_url }}');
+        background-size: cover;
+        background-position: center;
+        border-bottom: 1px solid rgba(0, 118, 223, 0.16);
+        color: #12344d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 280px;
+        padding: 72px 20px 56px;
+        text-align: center;
+      }
+
+      .headerr .hero-content {
+        max-width: 920px;
+      }
+
+      .headerr h2 {
+        color: #0f2f46;
+        font-size: clamp(2rem, 4vw, 3.4rem);
+        font-weight: 500;
+        line-height: 1.15;
+        margin: 0 0 18px;
+      }
+
+      .headerr p {
+        font-size: 1.08rem;
+        line-height: 1.7;
+        margin: 0;
+      }
+
+      .headerr a {
+        color: #005cad;
+        font-weight: 500;
+      }
+
+      @media (max-width: 600px) {
+        .headerr {
+          min-height: 250px;
+          padding: 64px 16px 42px;
+        }
+
+        .headerr p {
+          font-size: 1rem;
+        }
+      }
+    </style>
+    <div class="headerr">
+      <div class="hero-content">
+        <h2>Decoupled Intelligence <br>@ NeurIPS 2026</h2>
+        <p>
+          Sydney, Australia | December 8-11, 2026
+          <br>
+          Contact Us:
+          <a href="mailto:language.gamification.workshop@gmail.com">language.gamification.workshop@gmail.com</a> | <a href="https://x.com/MLLanguageGames">X @MLLanguageGames</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container mt-5">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+    {%- include footer.html %}
+
+    <!-- JavaScripts -->
+    {% include scripts/jquery.html %}
+    {% include scripts/bootstrap.html %}
+    {% include scripts/masonry.html %}
+    {% include scripts/misc.html %}
+    {% include scripts/mathjax.html %}
+    {% include scripts/analytics.html %}
+  </body>
+</html>
