@@ -1,7 +1,7 @@
 ---
 layout: default2
 permalink: /
-title: Decoupled Intelligence\\ @ NeurIPS 2026
+title: Decoupled Intelligence @ NeurIPS 2026
 nav_order: 1
 ---
 
@@ -58,29 +58,34 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
 <html>
     <div class="team-container">
         <div class="sponsor">
-            <img src="/assets/img/speakers/yoshua_bengio.jpg" alt="Yoshua Bengio">
+            <img src="{{ '/assets/img/speakers/yoshua_bengio.jpg' | relative_url }}" alt="Yoshua Bengio">
             <p><a href="https://yoshuabengio.org/">Yoshua Bengio</a>
             <br>Mila / Universit&eacute; de Montr&eacute;al<br>Talk at TBD</p>
         </div>
         <div class="sponsor">
-            <img src="/assets/img/speakers/karl_friston.jpg" alt="Karl Friston">
-            <p><a href="https://profiles.ucl.ac.uk/19708-karl-friston">Karl Friston</a>
+            <img src="{{ '/assets/img/speakers/karl_friston.jpg' | relative_url }}" alt="Karl Friston">
+            <p><a href="https://profiles.ucl.ac.uk/2747-karl-friston">Karl Friston</a>
             <br>University College London<br>Talk at TBD</p>
         </div>
         <div class="sponsor">
-            <img src="/assets/img/speakers/jakob_hohwy.jpg" alt="Jakob Hohwy">
+            <img src="{{ '/assets/img/speakers/jakob_hohwy.jpg' | relative_url }}" alt="Jakob Hohwy">
             <p><a href="https://www.monash.edu/arts/philosophical-historical-international-studies/people/profiles/profile.html?sid=10813&pid=5545">Jakob Hohwy</a>
             <br>Monash University<br>Talk at TBD</p>
         </div>
         <div class="sponsor">
-            <img src="/assets/img/speakers/percy_liang.jpg" alt="Percy Liang">
+            <img src="{{ '/assets/img/speakers/percy_liang.jpg' | relative_url }}" alt="Percy Liang">
             <p><a href="https://cs.stanford.edu/~pliang/">Percy Liang</a>
             <br>Stanford University<br>Talk at TBD</p>
         </div>
         <div class="sponsor">
-            <img src="/assets/img/speakers/jennifer_sun.jpg" alt="Jennifer Sun">
-            <p><a href="https://www.cs.cornell.edu/~jennifersun/">Jennifer Sun</a>
+            <img src="{{ '/assets/img/speakers/jennifer_sun.jpg' | relative_url }}" alt="Jennifer Sun">
+            <p><a href="https://jenjsun.com/">Jennifer Sun</a>
             <br>Cornell University<br>Talk at TBD</p>
+        </div>
+        <div class="sponsor">
+            <img src="{{ '/assets/img/speakers/philip_isola.jpg' | relative_url }}" alt="Philip Isola">
+            <p><strong>Philip Isola</strong>
+            <br>MIT<br>Talk at TBD</p>
         </div>
     </div>
 </html>
@@ -109,37 +114,37 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
 <html>
     <div class="team-container">
         <div class="team-member">
-            <img src="/assets/img/organizers/yihong_chen.jpg" alt="Yihong Chen">
+            <img src="{{ '/assets/img/organizers/yihong_chen.jpg' | relative_url }}" alt="Yihong Chen">
             <p><strong>Yihong Chen</strong>
             <br>University of Oxford</p>
         </div>
         <div class="team-member">
-            <img src="/assets/img/organizers/yi_joshua_ren.jpg" alt="Yi Joshua Ren">
+            <img src="{{ '/assets/img/organizers/yi_joshua_ren.jpg' | relative_url }}" alt="Yi Joshua Ren">
             <p><strong>Yi (Joshua) Ren</strong>
             <br>University of Oxford</p>
         </div>
         <div class="team-member">
-            <img src="/assets/img/organizers/yarin_gal.jpg" alt="Yarin Gal">
+            <img src="{{ '/assets/img/organizers/yarin_gal.jpg' | relative_url }}" alt="Yarin Gal">
             <p><strong>Yarin Gal</strong>
             <br>University of Oxford</p>
         </div>
         <div class="team-member">
-            <img src="/assets/img/organizers/pierre_luc_st_charles.jpg" alt="Pierre-Luc St-Charles">
+            <img src="{{ '/assets/img/organizers/pierre_luc_st_charles.jpg' | relative_url }}" alt="Pierre-Luc St-Charles">
             <p><strong>Pierre-Luc St-Charles</strong>
             <br>LawZero</p>
         </div>
         <div class="team-member">
-            <img src="/assets/img/organizers/gael_gendron.jpg" alt="Gael Gendron">
+            <img src="{{ '/assets/img/organizers/gael_gendron.jpg' | relative_url }}" alt="Gael Gendron">
             <p><strong>Gaël Gendron</strong>
             <br>LawZero</p>
         </div>
         <div class="team-member">
-            <img src="/assets/img/organizers/kevin_kasa.jpg" alt="Kevin Kasa">
+            <img src="{{ '/assets/img/organizers/kevin_kasa.jpg' | relative_url }}" alt="Kevin Kasa">
             <p><strong>Kevin Kasa</strong>
             <br>LawZero</p>
         </div>
         <div class="team-member">
-            <img src="/assets/img/organizers/sebastien_bratieres.jpg" alt="Sebastien Bratieres">
+            <img src="{{ '/assets/img/organizers/sebastien_bratieres.jpg' | relative_url }}" alt="Sebastien Bratieres">
             <p><strong>Sébastien Bratières</strong>
             <br>Translated</p>
         </div>
