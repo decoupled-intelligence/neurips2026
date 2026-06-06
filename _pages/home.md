@@ -12,55 +12,49 @@ nav_order: 1
 
 <!-- <br> -->
 
-### Workshop Summary
+### Workshop Description
 
-Foundation models have been driving most of the recent progress in AI, but at the same time, they also reinforce a monolithic view of intelligence: more capabilities through larger models trained on vast datasets. Systems based on monolithic foundation models often fail under distribution shifts across domains, tasks, or local constraints. Inappropriate hidden priors and static internalized knowledge are carried into new inferences, leading to poor generalization, producing hallucinations and unreliable conclusions.
+Foundation models (FMs) have been driving recent progress in AI, but at the same time, they reinforce a monolithic view of intelligence: more capabilities through larger models trained on vast datasets. Systems based on monolithic foundation models often fail under distribution shifts across domains, tasks, or local constraints. Inappropriate hidden priors and static internalized knowledge are carried into new inferences, leading to poor generalization, unreliable conclusions, and safety issues, as illustrated by reported failures involving [hallucinated personal claims](https://www.bbc.com/news/articles/c0kgydkr516o) and AI assistant errors in news summaries. On the other hand, alternative paradigms of intelligence built on decoupling and externalization are emerging: decoupling intention from intelligence (e.g., Scientist AI), knowledge from reasoning, identity from usage (e.g., Open Anonymity's "VPN for AI inference"), short-term updatable memory from long-term parametric memory (e.g., LMLM, RAG, tool use, and memory modules), and local data from global representations (e.g., federated learning).
 
-On the other hand, alternative paradigms of intelligence built on decoupling and externalization are emerging: decoupling intention from intelligence (e.g., Scientist AI), knowledge from reasoning,  identity from usage (e.g. Open Anonymity鈥檚 鈥淰PN for AI inference鈥?, and short-term updateable memory from long-term parametric memory (e.g., LMLM, RAG, tool use, and memory modules), local data from global representations (e.g. Federated Learning), modality-specific knowledge from abstract latent reasoning (e.g. JEPA) etc. 
+In 2026, AI systems are also facing mounting pressures from data ownership issues such as copyright disputes, licensing restrictions, privacy regulation, and data scarcity, while at the same time needing to handle value misalignment issues, with some groups demanding models that provide answers closer to their values. These constraints make decoupled AI architectures that respect user sovereignty and values not only desirable, but necessary. In industry, the emerging trend that foundation models do not constitute a full product of their own, and that they should instead be developed for compatibility with user-controlled memory modules, application-specific harnesses (e.g., [AI harness engineering](https://openreview.net/forum?id=3hXEPbG0dh) and [code as agent harness](https://arxiv.org/abs/2605.18747)), and other agentic orchestration layers, seems to offer a promising path toward more flexible and modular systems. This approach allows users to retain control over their data and workflows while reducing dependence on any single provider or its designated values, thereby mitigating the risks of lock-in to particular providers.
 
-Beyond an AI system challenge, decoupling raises a fundamental question: what is the irreducible core of intelligence, and what can be separated from it? As memory, knowledge, intention, identity, and computation become externalized, understanding if decoupling can enable a more adaptive and reliable form of intelligence than a monolithic foundation models become a central scientific and philosophical inquiry.
+Beyond an AI system challenge, decoupling raises a fundamental question: what is the irreducible core of intelligence, and what can be separated from it? As memory, knowledge, intention, identity, and computation become externalized, understanding whether decoupling can enable a more adaptive and reliable form of intelligence than monolithic foundation models becomes a central scientific and philosophical inquiry. The rise of multimodal foundation models further sharpens these questions. While decoupling has shown promise in language-centric systems, it remains unclear how reasoning, memory, and knowledge should be separated when intelligence operates over jointly encoded visual, auditory, textual, and sensor modalities. Understanding which components should remain shared and which should be modularized is becoming a central scientific challenge.
 
-In 2026, AI systems are also facing mounting pressures from data ownership issues such as copyright disputes, licensing restrictions, privacy regulation, while at the same time running out of high-quality public data. These constraints make decoupled systems which respect user sovereignty not only desirable, but necessary.  
-
-Taken together, both emerging scientific directions and growing societal demands point towards decoupled AI systems as the increasingly important alternatives to the monolithic foundational models. This workshop therefore calls for a different trajectory of decoupled intelligence.
-
-By convening researchers across machine learning, systems, and governance, this workshop aims to develop shared evaluation frameworks and architectural principles for decoupled AI systems that are inherently adaptable under changing data and diverse deployment constraints, and therefore by design support better efficiency, safety, and user sovereignty.
-
+Taken together, both emerging scientific directions and growing societal demands point towards decoupled AI systems as increasingly important alternatives to monolithic foundation models. This workshop therefore calls for a different trajectory of decoupled intelligence. By convening researchers across machine learning, systems, and governance, this workshop aims to develop shared taxonomies, evaluation frameworks, and architectural principles for decoupled AI systems that are inherently adaptable under changing data and diverse deployment constraints, including different cultural values, and therefore by design support better efficiency, safety, and user sovereignty.
 
 <br>
 
 ### Importance, Novelty, and Audience
-Decoupling partial intelligence from the static model parameters, i.e. deciding what systems should retain and what should be externalized, seems to be the core challenge spanning multiple areas. 
-i) In efficiency research, systems must determine which components to reuse and which to replace. 
-ii) In safety-critical applications, systems must preserve abstract reasoning capabilities without leaking domain-specific assumptions across contexts. 
-iii) In privacy-sensitive applications, systems must determine what should remain in centralized parameters versus local or user-controlled storage. decoupling's purpose is to have a boundary so that it is separated from the user鈥檚 privacy.
-iv) In multimodal foundation models, systems must separate shared abstract representations and operations in latent space from modality-specific knowledge.
-v) In continual learning, systems must distinguish between useful memory retention and harmful rigidity.
 
+As a field, we have seen major progress in AI in recent years through the monolithic foundation model paradigm. However, as the initial excitement around "FM = AGI" gradually fades, we are facing a possible redefinition of future intelligence itself. Decoupling is about creating and maintaining meaningful boundaries: separating partial intelligence from static model parameters, and deciding what systems should retain internally versus what they should externalize. This challenge spans multiple areas:
 
+- In **efficiency research**, systems must determine which components to reuse and which to replace.
 
-### Topics
+- In **safety-critical applications**, systems must preserve abstract reasoning capabilities without leaking domain-specific assumptions across contexts.
 
-This workshop invites an exploration of Decoupled Intelligence through a diverse set of methodological perspectives and research backgrounds, offering a series of presentations and unique panel discussions, including:
+- In **privacy-sensitive applications**, systems must determine what should remain in centralized parameters versus local or user-controlled storage. Decoupling creates a boundary between shared model capabilities and user-private data.
 
-- **Cognitive Science:** Exploring the dynamic relationship between language use and human language acquisition.
-- **Multi-Agent Learning:** Establishing the theoretical foundations of language games.
-- **In-Context Learning:** Analyzing the plasticity of LLMs during language interactions.
-- **Language Emergence:** Uncovering insights into how humans naturally engage in language games and employing Deep Learning tools to model this process.
-- **Deep Reinforcement Learning:** Showcasing RL approaches that leverage language games to foster planning and reasoning abilities.
-- **Modern NLP:** Recent works promoting self-improvement approaches for LLMs.
-- **Embodiment:** Investigating the role of decoupled intelligence in the development of embodied agents.
+- In **multimodal foundation models**, systems must separate shared abstract representations and operations in latent space from modality-specific knowledge.
+
+- In **continual learning**, systems must distinguish between useful memory retention and harmful rigidity.
+
+However, there is still a lack of common language to facilitate scientific discussion in decoupling. Nor do we have standardized benchmarks and evaluations of whether decoupling is successful, or whether different levels of decoupling are needed for different scenarios. All of these are unaddressed community needs. In this workshop, we expect audiences across the above areas to come together, sharpen the common thread of decoupling, develop a common taxonomy for deepening this line of research, and pave the way for future AI systems that go beyond foundation models.
+
+### [Call for Papers]({{ '/call/' | relative_url }}) and [Competition]({{ '/competition/' | relative_url }})
+
+Our workshop will comprise a standard CFP process and a competition to engage different audiences. In our tentative schedule, we have six invited talks, two contributed-talk sessions, two poster sessions, one panel discussion, and dedicated sessions for the competition overview and winner talks. The panel discussion and extended poster sessions are designed to support substantive discussion.
+
 
 <br>
 
 ### :sparkles: Keynote Speakers
 
 <html>
-    <div class="team-container">
+    <div class="team-container speaker-container">
         <div class="sponsor">
             <img src="{{ '/assets/img/speakers/yoshua_bengio.jpg' | relative_url }}" alt="Yoshua Bengio">
             <p><a href="https://yoshuabengio.org/">Yoshua Bengio</a>
-            <br>Mila / Universit&eacute; de Montr&eacute;al<br>Talk at TBD</p>
+            <br>Mila <br> Universit&eacute; de Montr&eacute;al<br>Talk at TBD</p>
         </div>
         <div class="sponsor">
             <img src="{{ '/assets/img/speakers/karl_friston.jpg' | relative_url }}" alt="Karl Friston">
@@ -115,38 +109,38 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
     <div class="team-container">
         <div class="team-member">
             <img src="{{ '/assets/img/organizers/yihong_chen.jpg' | relative_url }}" alt="Yihong Chen">
-            <p><strong>Yihong Chen</strong>
+            <p><a href="https://oatml.cs.ox.ac.uk/members/yihong_chen/">Yihong Chen</a>
             <br>University of Oxford</p>
         </div>
         <div class="team-member">
             <img src="{{ '/assets/img/organizers/yi_joshua_ren.jpg' | relative_url }}" alt="Yi Joshua Ren">
-            <p><strong>Yi (Joshua) Ren</strong>
+            <p><a href="https://oatml.cs.ox.ac.uk/members/yi_ren/">Yi (Joshua) Ren</a>
             <br>University of Oxford</p>
         </div>
         <div class="team-member">
             <img src="{{ '/assets/img/organizers/yarin_gal.jpg' | relative_url }}" alt="Yarin Gal">
-            <p><strong>Yarin Gal</strong>
-            <br>University of Oxford</p>
+            <p><a href="https://oatml.cs.ox.ac.uk/members/yarin/">Yarin Gal</a>
+            <br>University of Oxford <br> AISI</p>
         </div>
         <div class="team-member">
             <img src="{{ '/assets/img/organizers/pierre_luc_st_charles.jpg' | relative_url }}" alt="Pierre-Luc St-Charles">
-            <p><strong>Pierre-Luc St-Charles</strong>
+            <p><a href="https://www.linkedin.com/in/plstcharles/">Pierre-Luc St-Charles</a>
             <br>LawZero</p>
         </div>
         <div class="team-member">
             <img src="{{ '/assets/img/organizers/gael_gendron.jpg' | relative_url }}" alt="Gael Gendron">
-            <p><strong>Gaël Gendron</strong>
+            <p><a href="https://ggendro.github.io/">Gaël Gendron</a>
             <br>LawZero</p>
         </div>
         <div class="team-member">
             <img src="{{ '/assets/img/organizers/kevin_kasa.jpg' | relative_url }}" alt="Kevin Kasa">
-            <p><strong>Kevin Kasa</strong>
+            <p><a href="https://kevinkasa.github.io/">Kevin Kasa</a>
             <br>LawZero</p>
         </div>
         <div class="team-member">
             <img src="{{ '/assets/img/organizers/sebastien_bratieres.jpg' | relative_url }}" alt="Sebastien Bratieres">
-            <p><strong>Sébastien Bratières</strong>
-            <br>Translated</p>
+            <p><a href="https://it.linkedin.com/in/sebastien-bratieres">Sébastien Bratières</a>
+            <br>Translated <br> DVPS</p>
         </div>
     </div>
 </html>
@@ -169,6 +163,25 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
     </div>
 </html>
 -->
+
+<br>
+
+### Sponsors
+
+<html>
+    <div class="sponsors-container">
+        <a class="sponsor-logo" href="https://www.ox.ac.uk/" aria-label="University of Oxford">
+            <img src="{{ '/assets/img/sponsors/oxford.png' | relative_url }}" alt="University of Oxford">
+        </a>
+        <a class="sponsor-logo" href="https://lawzero.org/" aria-label="LawZero">
+            <img src="{{ '/assets/img/sponsors/lawzero.png' | relative_url }}" alt="LawZero">
+        </a>
+        <a class="sponsor-logo" href="https://www.translated.com/research" aria-label="DVPS">
+            <img src="{{ '/assets/img/sponsors/dvps.png' | relative_url }}" alt="DVPS">
+        </a>
+    </div>
+</html>
+
 <style>
 .button-container {
     display: flex;
@@ -201,6 +214,10 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
     margin: 0 auto;
 }
 
+.speaker-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .team-member,
 .sponsor {
     text-align: center;
@@ -223,6 +240,20 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
     margin: 0;
 }
 
+.team-member p a,
+.sponsor p a {
+    color: var(--global-theme-color);
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.team-member p a:hover,
+.sponsor p a:hover {
+    text-decoration: underline;
+}
+
 .sponsor {
     font-size: 18px;
     font-weight: bold;
@@ -235,6 +266,30 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
     margin-bottom: 12px;
     object-fit: cover;
     width: 100%;
+}
+
+.sponsors-container {
+    align-items: center;
+    display: grid;
+    gap: 28px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 18px auto 36px;
+    max-width: 860px;
+}
+
+.sponsor-logo {
+    align-items: center;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    min-height: 96px;
+    padding: 18px 22px;
+}
+
+.sponsor-logo img {
+    max-height: 88px;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .caption {
@@ -258,6 +313,12 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
     background-color: rgba(0, 118, 223, 0.04);
 }
 
+@media (max-width: 768px) {
+    .speaker-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 @media (max-width: 600px) {
     .news-box {
         width: 100%;
@@ -267,9 +328,17 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
         grid-template-columns: 1fr;
     }
 
+    .speaker-container {
+        grid-template-columns: 1fr;
+    }
+
     .team-member img {
         height: 160px;
         width: 160px;
+    }
+
+    .sponsors-container {
+        grid-template-columns: 1fr;
     }
 }
 </style>

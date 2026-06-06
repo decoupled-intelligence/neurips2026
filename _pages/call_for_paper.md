@@ -18,24 +18,43 @@ nav_order: 2
 
 <br>
 
-### Call for papers
+### Call for Papers
 
-We invite submissions exploring decoupled intelligence, externalized reasoning, modular AI systems, and adaptive intelligence beyond monolithic foundation models. We welcome papers that address the following themes:
+We welcome submissions on the following themes:
 
-* Decoupled architectures for foundation models and AI agents
-* Externalized reasoning, memory, knowledge, tools, and computation
-* Retrieval, memory modules, tool use, and modular inference systems
-* Privacy-preserving, user-controlled, and locally adaptive AI systems
-* Federated, decentralized, and personalized learning systems
-* Multimodal systems that separate shared abstractions from modality-specific knowledge
-* Continual learning and updateable memory without harmful rigidity
-* Evaluation frameworks for adaptive and decoupled AI systems
-* Governance, data ownership, licensing, privacy, and user sovereignty in AI
-* Philosophical, cognitive, economic, or social perspectives on decoupled intelligence
+**Theme 1: Architectural Decoupling of Intelligence.**
 
-We appreciate any submissions that contribute significantly to the field of Decoupled Intelligence, even if they do not perfectly fit within the listed categories.
+- Decoupling intention or agency from intelligence (e.g., Scientist AI)
+- Decoupling knowledge from reasoning, including knowledge externalization and knowledge offloading
+- Modality-invariant and modality-specific representations
+- Memory modules and harnesses for foundation models
+- Composable or modularized systems (e.g., mixture-of-experts, modular agents)
 
-We welcome submissions from researchers who go beyond the classic Machine Learning community. This includes work in systems, privacy, governance, cognitive science, economics, philosophy, and other areas related to decoupled intelligence.
+**Theme 2: Limitations of Coupling in Foundation Models.**
+
+When does coupling become a limitation? How do we measure levels of coupling?
+
+- Beneficial vs harmful memorization in LLMs
+- Reasoning failures (e.g., hallucination, lack of reliability or controllability)
+- Knowledge retrieval failures
+- Generalization under temporal, modality, and domain shifts (e.g., when a model carries outdated information into the generation process)
+- Lack of plasticity in LLMs, including adaptation and continual learning over time, modalities, and users
+
+**Theme 3: Reliability, User Sovereignty, and Governance through Decoupling.**
+
+Can decoupling or modularization improve trustworthiness?
+
+- Safety and security in modular and agentic systems
+- Privacy-preserving architectures with modularized design, user-sovereign AI, and user-controlled memory
+- Value pluralism and customizable alignment
+- Data ownership and governance challenges for monolithic foundation models
+
+**Theme 4: The Irreducible Core of Intelligence.**
+
+- Cognitive abstractions
+- Shared representations across modalities
+- First principles of intelligence
+
 
 <br>
 
@@ -47,9 +66,9 @@ For all other requirements, we will follow the relevant NeurIPS 2026 workshop gu
 
 <br>
 
-### Paper presentation
+### Paper Presentation
 
-Accepted papers will be presented during poster sessions, and exceptional submissions may be selected for spotlight oral presentations. Accepted papers will be made publicly available as non-archival reports, allowing for proceeding submission.
+Accepted papers will be presented during poster sessions, and exceptional submissions may be selected for spotlight oral presentations. Accepted papers will be made publicly available as non-archival reports, allowing authors to submit extended or archival versions elsewhere.
 
 <br>
 

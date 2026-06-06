@@ -10,21 +10,21 @@ nav_order: 4
 
 <br>
 
-| 09:00-09:15  | Welcome & Opening Remarks (15 min) |
-| 09:15-10:00  | **Invited Talk 1** (25 min talk + 5 min Q&A; 45 min total) |
-| 10:00-10:45  | **Invited Talk 2** (25 min talk + 5 min Q&A; 45 min total) |
-| 10:45-11:15  | Coffee Break + Poster Session I (30 min) |
-| 11:15-11:40  | **Oral Paper Talk 1** (20 min talk + 5 min Q&A; 25 min total) |
-| 11:40-12:05  | **Oral Paper Talk 2** (20 min talk + 5 min Q&A; 25 min total) |
-| 12:05-13:00  | Lunch Break (55 min) |
-| 13:00-13:20  | Competition Awards & Track Overview (20 min) |
-| 13:20-14:00  | **Competition Winner Talk** (30 min talk + 10 min Q&A; 40 min total) |
-| 14:00-14:45  | **Invited Talk 3** (35 min talk + 10 min Q&A; 45 min total) |
-| 14:45-15:15  | Coffee Break + Poster Session II (30 min) |
-| 15:15-16:00  | **Invited Talk 4** (35 min talk + 10 min Q&A; 45 min total) |
-| 16:00-16:45  | Panel / Roundtable / Open Discussion (45 min) |
-| 16:45-17:00  | Closing Remarks & Future Directions (15 min) |
-| 17:00-17:30 (optional)  | Informal Networking / Overflow Discussion (30 min) |
+| 8:30-8:40 AM  | Opening Remarks (10 min) |
+| 8:40-9:10 AM  | **Invited Talk 1** (30 min) |
+| 9:10-9:40 AM  | **Invited Talk 2** (30 min) |
+| 9:40-10:10 AM  | **Invited Talk 3** (30 min) |
+| 10:10-10:40 AM  | Contributed Talks Session 1 (2 x 15; 30 min) |
+| 10:40-10:55 AM  | Competition Overview, Finalists & Awards (10 min) |
+| 10:55-11:20 AM  | **Competition Winner Talk** (2 x 15; 30 min) |
+| 11:20 AM-12:20 PM  | Panel Discussion (60 min) |
+| 12:20-1:50 PM  | Poster Session 1 & Lunch (90 min) |
+| 1:50-2:20 PM  | **Invited Talk 4** (30 min) |
+| 2:20-2:50 PM  | **Invited Talk 5** (30 min) |
+| 2:50-3:20 PM  | **Invited Talk 6** (30 min) |
+| 3:20-3:50 PM  | Contributed Talks Session 2 (2 x 15; 30 min) |
+| 3:50-4:00 PM  | Closing Remarks (10 min) |
+| 4:00-5:30 PM  | Poster Session 2 & Networking (90 min) |
 |||
 
 <br>
