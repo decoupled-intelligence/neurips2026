@@ -69,7 +69,7 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
         </div>
         <div class="sponsor">
             <img src="{{ '/assets/img/speakers/jakob_hohwy.jpg' | relative_url }}" alt="Jakob Hohwy">
-            <p><a href="https://www.monash.edu/arts/philosophical-historical-international-studies/people/profiles/profile.html?sid=10813&pid=5545">Jakob Hohwy</a>
+            <p><a href="https://research.monash.edu/en/persons/jakob-hohwy/">Jakob Hohwy</a>
             <br>Monash University<br>Talk at TBD</p>
         </div>
         <div class="sponsor">
@@ -84,7 +84,7 @@ This workshop invites an exploration of Decoupled Intelligence through a diverse
         </div>
         <div class="sponsor">
             <img src="{{ '/assets/img/speakers/philip_isola.jpg' | relative_url }}" alt="Philip Isola">
-            <p><strong>Philip Isola</strong>
+            <p><a href="https://web.mit.edu/phillipi/">Philip Isola</a>
             <br>MIT<br>Talk at TBD</p>
         </div>
     </div>
