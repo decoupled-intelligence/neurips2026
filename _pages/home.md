@@ -118,11 +118,6 @@ Our workshop will comprise a standard CFP process and a competition to engage di
             <br>University of Oxford</p>
         </div>
         <div class="team-member">
-            <img src="{{ '/assets/img/organizers/yarin_gal.jpg' | relative_url }}" alt="Yarin Gal">
-            <p><a href="https://oatml.cs.ox.ac.uk/members/yarin/">Yarin Gal</a>
-            <br>University of Oxford <br> AISI</p>
-        </div>
-        <div class="team-member">
             <img src="{{ '/assets/img/organizers/pierre_luc_st_charles.jpg' | relative_url }}" alt="Pierre-Luc St-Charles">
             <p><a href="https://www.linkedin.com/in/plstcharles/">Pierre-Luc St-Charles</a>
             <br>LawZero</p>
@@ -141,6 +136,11 @@ Our workshop will comprise a standard CFP process and a competition to engage di
             <img src="{{ '/assets/img/organizers/sebastien_bratieres.jpg' | relative_url }}" alt="Sebastien Bratieres">
             <p><a href="https://it.linkedin.com/in/sebastien-bratieres">Sébastien Bratières</a>
             <br>Translated <br> DVPS</p>
+        </div>
+        <div class="team-member">
+            <img src="{{ '/assets/img/organizers/yarin_gal.jpg' | relative_url }}" alt="Yarin Gal">
+            <p><a href="https://oatml.cs.ox.ac.uk/members/yarin/">Yarin Gal</a>
+            <br>University of Oxford <br> AISI</p>
         </div>
     </div>
 </html>
